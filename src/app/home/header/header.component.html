@@ -1,0 +1,13 @@
+<mat-toolbar class="toolbar">
+  <mat-toolbar-row>
+    <span id="header-schedule">Agenda</span><mat-icon>calendar_today</mat-icon>
+
+    <span class="example-spacer"></span>
+    <button mat-raised-button color="primary">
+      <mat-icon>add</mat-icon>Add
+    </button>
+  </mat-toolbar-row>
+  <div class="container-date">
+    <span id="header-date">{{ dataAtual | date : "MMMM" }} {{dataAtual | date: "dd"}}</span>
+  </div>
+</mat-toolbar>

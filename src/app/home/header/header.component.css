@@ -1,0 +1,28 @@
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbar {
+  font-size: 30px;
+  background-color: #0b0b0b;
+  color: #3f51b5;
+  margin-bottom: 52px;
+}
+
+#header-schedule {
+  padding: 12px;
+}
+
+#header-date{
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+}
+
+.container-date{
+  display: flex;
+  justify-content: center;
+}
