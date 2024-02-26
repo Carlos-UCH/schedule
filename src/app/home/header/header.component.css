@@ -12,17 +12,15 @@
   margin-bottom: 52px;
 }
 
-#header-schedule {
-  padding: 12px;
-}
 
 #header-date{
   font-size: 14px;
   color: #fff;
-  position: absolute;
+
 }
 
 .container-date{
   display: flex;
   justify-content: center;
 }
+

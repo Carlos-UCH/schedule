@@ -15,7 +15,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatTabsModule } from '@angular/material/tabs';
 import { FlexLayoutServerModule } from '@angular/flex-layout/server';
-import { provideHttpClient, withFetch } from '@angular/common/http';
+import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,9 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
     MatDividerModule,
     FlexLayoutModule,
     MatTabsModule,
-    FlexLayoutServerModule
+    FlexLayoutServerModule,
+    HttpClientModule
+
 
 
   ],
