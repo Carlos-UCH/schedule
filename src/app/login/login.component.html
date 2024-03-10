@@ -1,28 +1,33 @@
 
+<form (submit)="submit()" >
 <div class="container">
   <div class="box">
     <div class="inputs">
       <div class="input-single">
-        <input required type="text" name="" id="username" class="input" />
+        <input type="text" name="username"  [(ngModel)]="datas.name" id="username" class="input" />
         <label for="username" class="label">Username</label>
       </div>
 
       <div class="input-single">
-        <input required type="text" name="" id="password" class="input" />
+        <input  type="text" name="password" [(ngModel)]="datas.password" id="password" class="input"  required >
         <label for="password" class="label">Password</label>
       </div>
 
-      <button
+      <button type="submit"
         mat-raised-button
         color="primary"
         style="margin-left: 78px; top: 77px"
+
+
       >
         Submit
       </button>
     </div>
   </div>
 </div>
+</form>
 <div class="lines" *ngFor="let item of repeat(4)">
   <hr />
   <br />
 </div>
+

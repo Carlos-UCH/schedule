@@ -26,7 +26,8 @@ import {
 import { LoginComponent } from './login/login.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-
+import { FormsModule } from '@angular/forms';
+import { NgModel } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +50,8 @@ import {MatInputModule} from '@angular/material/input';
     HttpClientModule,
     MatFormFieldModule,
     MatIconModule,
-    MatInputModule
+    MatInputModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration(),

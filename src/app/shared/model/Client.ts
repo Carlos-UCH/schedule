@@ -1,7 +1,7 @@
 export class Client{
   id!:number;
   name!:string;
-  date!:String;
+  password!:String;
 
 
 }
